@@ -15,7 +15,6 @@ from hsh.library.hash import Hasher # type: ignore
 from .u2net import detect, u2net
 from . import github
 
-
 try:
     if torch.cuda.is_available():
         DEVICE = torch.device('cuda:0')
